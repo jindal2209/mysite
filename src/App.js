@@ -101,7 +101,7 @@ function About() {
 						</span>
 						<br />
 						<div className='h3 pb-5'>
-							I am a Web Developer and a competetive programmer with currently 3⭐ on codechef.
+							I am a Web Developer and a competitive programmer with currently 3⭐ on codechef.
 							I code in C++, Python and JavaScript. I also ❤️ hacking.
 						</div>
 					</div>
