@@ -81,8 +81,8 @@ function Navbar() {
 				<li><a href="#home" onClick={() => closeMenu()}><i className="fas fa-home"></i> Home</a></li>
 				<li><a href="#about" onClick={() => closeMenu()}><i className="fas fa-user"></i> About</a></li>
 				<li><a href="#skills" onClick={() => closeMenu()}><i className="fas fa-lightbulb"></i> Skills</a></li>
+				<li><a href="#experience" onClick={() => closeMenu()}><i className="fas fa-id-card"></i> Experience</a></li>
 				<li><a href="#projects" onClick={() => closeMenu()}><i className="fas fa-file-alt"></i> Projects</a></li>
-				{/* <li><a href="#home" onClick={() => closeMenu()}><i className="fas fa-id-card"></i> Portfolio</a></li> */}
 				<li><a href="#contact" onClick={() => closeMenu()}><i className="fas fa-id-card-alt"></i> Contact</a></li>
 			</ul>
 			<div className='scrollPos' id='scrollPos'></div>
@@ -174,29 +174,29 @@ function Skills() {
 				/>
 				<PrecentageBar
 					name='SQL'
-					val='40'
+					val='60'
 					src="https://img.icons8.com/plasticine/100/000000/oracle-pl-sql--v3.png"
 				/>
 				<PrecentageBar
 					name='AWS'
-					val='60'
+					val='70'
 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
 				/>
 			</div>
 			<div className='col-md-6' data-aos='zoom-in'>
 				<PrecentageBar
 					name='Django'
-					val='80'
+					val='85'
 					src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/django/django-original.svg"
 				/>
 				<PrecentageBar
 					name='React'
-					val='60'
+					val='70'
 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
 				/>
 				<PrecentageBar
 					name='CSS'
-					val='50'
+					val='60'
 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
 				/>
 				<PrecentageBar
@@ -206,7 +206,7 @@ function Skills() {
 				/>
 				<PrecentageBar
 					name='Bootstrap'
-					val='70'
+					val='80'
 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
 				/>
 			</div>
@@ -259,6 +259,41 @@ function Projects() {
 					desc='Created REST APIs for the college website using Django and Django-REST-Framework'
 					link='http://www.bpitindia.com/'
 					hosted={true}
+				/>
+			</div>
+		</div>
+	)
+}
+
+function ExperienceComponent(props) {
+	return (
+		<div className='py-3 px-2' data-aos='zoom-in'>
+			<h4>
+				{props.position}
+			</h4>
+			<h5 style={{ textDecoration: 'underline' }}>
+				<b>{props.company_name}</b>
+			</h5>
+			<h6>
+				{props.duration}
+			</h6>
+			{props.desc}
+		</div>
+	)
+}
+
+function Experience() {
+	return (
+		<div className='row my-5' id='experience'>
+			<h1 className='header'>
+				Experience
+			</h1>
+			<div className=''>
+				<ExperienceComponent
+					company_name='Corefactors'
+					position='Junior Associate Enginner Intern'
+					duration='August 2021 - Present'
+					desc='Working on CRM product Teleduce whose backend is built using Django and uses inbuilt template engine for User Interface. '
 				/>
 			</div>
 		</div>
@@ -331,6 +366,7 @@ function App() {
 			<div className='container'>
 				<About />
 				<Skills />
+				<Experience />
 				<Projects />
 				<Contact />
 			</div>
