@@ -292,7 +292,7 @@ function Experience() {
 				<ExperienceComponent
 					company_name='Corefactors'
 					position='Junior Associate Enginner Intern'
-					duration='August 2021 - Present'
+					duration='August 2021 - October 2021'
 					desc='Working on CRM product Teleduce whose backend is built using Django and uses inbuilt template engine for User Interface. '
 				/>
 			</div>
