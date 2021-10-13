@@ -101,7 +101,7 @@ function About() {
 						</span>
 						<br />
 						<div className='h3 pb-5'>
-							I am a Web Developer and a competitive programmer with currently 3⭐ on codechef.
+							I am a Web Developer and a competitive programmer.
 							I code in C++, Python and JavaScript. I also ❤️ hacking.
 						</div>
 					</div>
@@ -237,8 +237,14 @@ function Projects() {
 			</h1>
 			<div className=''>
 				<ProjectComponent
+					name='Transaction Settlement'
+					desc='An application that allows consumers to split expenses with friends. Implemented heap data structutre in javascript.'
+					link='https://jindal2209.github.io/transaction_settlement_splitwise/'
+					hosted={true}
+				/>
+				<ProjectComponent
 					name='Algolizer'
-					desc='An application showing visulization of various algorithms'
+					desc='An application showing visulization of various algorithms like sorting, backtracking, graphs, heaps.'
 					link='https://jindal2209.github.io/Algolizer/'
 					hosted={true}
 				/>
