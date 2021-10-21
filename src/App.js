@@ -223,8 +223,8 @@ function ProjectComponent(props) {
 			</h5>
 			{props.desc}
 			<br />
-			{props.hosted ? "The project is hosted " : "The project is available "}
-			<a style={{ color: 'white' }} href={props.link} target='_blank' rel='noreferrer'>here</a>.
+			{props.available ? props.hosted ? "The project is hosted " : "The project is available " : null}
+			{props.available ? <a style={{ color: 'white' }} href={props.link} target='_blank' rel='noreferrer'>here.</a> : null}
 		</div>
 	)
 }
@@ -237,34 +237,53 @@ function Projects() {
 			</h1>
 			<div className=''>
 				<ProjectComponent
-					name='Transaction Settlement'
-					desc='An application that allows consumers to split expenses with friends. Implemented heap data structutre in javascript.'
-					link='https://jindal2209.github.io/transaction_settlement_splitwise/'
-					hosted={true}
-				/>
-				<ProjectComponent
 					name='Algolizer'
-					desc='An application showing visulization of various algorithms like sorting, backtracking, graphs, heaps.'
+					desc='An application showing visulization of various algorithms like sorting, backtracking, graphs, heaps tries.'
 					link='https://jindal2209.github.io/Algolizer/'
 					hosted={true}
+					available={true}
+				/>
+				<ProjectComponent
+					name='Text Editor Auto Suggestion'
+					desc='A text editor that also provides suggestion based on previous text entered by the user. Data Structures used Tries, Maps, Graphs.'
+					link='https://jindal2209.github.io/Text_Editor_Auto_Suggestion/'
+					hosted={true}
+					available={true}
+				/>
+				<ProjectComponent
+					name='Transaction Settlement'
+					desc='An application that allows consumers to split expenses with friends similar to split-wise. Implemented using heaps. Implemented heap data structure in java-script.'
+					link='https://jindal2209.github.io/transaction_settlement_splitwise/'
+					hosted={true}
+					available={true}
+				/>
+				<ProjectComponent
+					name='Customer Portal'
+					desc='A customer portal application from which customer can raise tickets and connect with the agent to resolve issues.'
+					link='https://jindal2209.github.io/transaction_settlement_splitwise/'
+					hosted={true}
+					available={false}
 				/>
 				<ProjectComponent
 					name='Student Result Consolidation System'
-					desc='An application that parses the pdf and stores the data in data base. Backend is developed on Django and front-end is developed on React'
+					desc='An application that parses the PDF and stores the data in data-base. Back-end is developed using Django and front-end is developed using React. User can enter the enrollment number and check his/her results along with some data visualization using graphs and charts.'
 					link='https://github.com/jindal2209/SRCS_Frontend'
 					hosted={false}
-				/>
-				<ProjectComponent
-					name='Todo Application'
-					desc='A todo application to keep note of daily tasks.'
-					link='https://todowo.herokuapp.com/'
-					hosted={true}
+					available={true}
 				/>
 				<ProjectComponent
 					name='College Website'
 					desc='Created REST APIs for the college website using Django and Django-REST-Framework'
 					link='http://www.bpitindia.com/'
 					hosted={true}
+					available={true}
+				/>
+				<ProjectComponent
+					name='Todo Application'
+					desc='A to-do application to create and keep notes of daily tasks.'
+					link='https://todowo.herokuapp.com/'
+					hosted={true}
+					available={true}
 				/>
 			</div>
 		</div>
