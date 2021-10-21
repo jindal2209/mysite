@@ -260,7 +260,6 @@ function Projects() {
 				<ProjectComponent
 					name='Customer Portal'
 					desc='A customer portal application from which customer can raise tickets and connect with the agent to resolve issues.'
-					link='https://jindal2209.github.io/transaction_settlement_splitwise/'
 					hosted={true}
 					available={false}
 				/>
