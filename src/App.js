@@ -395,6 +395,12 @@ function Experience() {
 			</h1>
 			<div className=''>
 				<ExperienceComponent
+					company_name='Shiprocket'
+					position='Software Enginner Intern'
+					duration='January 2022 - Present'
+					desc=''
+				/>
+				<ExperienceComponent
 					company_name='Corefactors'
 					position='Junior Associate Enginner Intern'
 					duration='August 2021 - October 2021'
