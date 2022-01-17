@@ -32,7 +32,7 @@ function Navbar() {
 				<span className="bar"></span>
 			</label>
 			<label className="logo"><a href="#home" style={{ color: 'white' }}>Shubham Jindal</a></label>
-			<ul>
+			<ul style={{ 'listStyleType': 'none' }}>
 				<li className="center">
 					<div>
 						<img src={process.env.PUBLIC_URL + "/myimg.png"} alt="Avatar" />
@@ -121,15 +121,15 @@ function About() {
 	)
 }
 
-function PrecentagelBar(props) {
-	return (
-		<div className='text-center m-1'>
-			<img className='m-3' src={props.src} alt={props.name} width='50' height='50' style={{ padding: '5px' }} />
+// function PrecentagelBar(props) {
+// 	return (
+// 		<div className='text-center m-1'>
+// 			<img className='m-3' src={props.src} alt={props.name} width='50' height='50' style={{ padding: '5px' }} />
 
-			{props.name}
-		</div>
-	)
-}
+// 			{props.name}
+// 		</div>
+// 	)
+// }
 
 function PrecentageBar(props) {
 	var wid = props.val
@@ -160,68 +160,68 @@ function PrecentageBar(props) {
 	)
 }
 
-function Skislls() {
-	return (
-		<div className='row my-5 pb-5' id='skills'>
-			<h1 className='header'>
-				Skills
-			</h1>
-			<div className='d-flex flex-wrap flex-row justify-content-start align-items-start' data-aos='zoom-in'>
-				<PrecentageBar
-					name='C++'
-					val='80'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-line.svg"
-				/>
-				<PrecentageBar
-					name="Python"
-					val='80'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-				/>
-				<PrecentageBar
-					name="Javascript"
-					val='80'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-				/>
-				<PrecentageBar
-					name='SQL'
-					val='60'
-					src="https://img.icons8.com/plasticine/100/000000/oracle-pl-sql--v3.png"
-				/>
-				<PrecentageBar
-					name='AWS'
-					val='70'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
-				/>
-				<PrecentageBar
-					name='Django'
-					val='85'
-					src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/django/django-original.svg"
-				/>
-				<PrecentageBar
-					name='React'
-					val='70'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-				/>
-				<PrecentageBar
-					name='CSS'
-					val='60'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
-				/>
-				<PrecentageBar
-					name='HTML'
-					val='80'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
-				/>
-				<PrecentageBar
-					name='Bootstrap'
-					val='80'
-					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
-				/>
-			</div>
-		</div>
+// function Skislls() {
+// 	return (
+// 		<div className='row my-5 pb-5' id='skills'>
+// 			<h1 className='header'>
+// 				Skills
+// 			</h1>
+// 			<div className='d-flex flex-wrap flex-row justify-content-start align-items-start' data-aos='zoom-in'>
+// 				<PrecentageBar
+// 					name='C++'
+// 					val='80'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-line.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name="Python"
+// 					val='80'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name="Javascript"
+// 					val='80'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='SQL'
+// 					val='60'
+// 					src="https://img.icons8.com/plasticine/100/000000/oracle-pl-sql--v3.png"
+// 				/>
+// 				<PrecentageBar
+// 					name='AWS'
+// 					val='70'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='Django'
+// 					val='85'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/django/django-original.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='React'
+// 					val='70'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='CSS'
+// 					val='60'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='HTML'
+// 					val='80'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
+// 				/>
+// 				<PrecentageBar
+// 					name='Bootstrap'
+// 					val='80'
+// 					src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
+// 				/>
+// 			</div>
+// 		</div>
 
-	)
-}
+// 	)
+// }
 
 
 function Skills() {
@@ -382,7 +382,11 @@ function ExperienceComponent(props) {
 			<h6>
 				{props.duration}
 			</h6>
-			{props.desc}
+			<ul className='bullet-list'>
+				{props.desc.map((val, idx) => (
+					<li key={idx}>{val}</li>
+				))}
+			</ul>
 		</div>
 	)
 }
@@ -398,13 +402,20 @@ function Experience() {
 					company_name='Shiprocket'
 					position='Software Enginner Intern'
 					duration='January 2022 - Present'
-					desc=''
+					desc={[
+						'Working with fullfilment team in front-end development using Angular.'
+					]}
 				/>
 				<ExperienceComponent
 					company_name='Corefactors'
 					position='Junior Associate Enginner Intern'
 					duration='August 2021 - October 2021'
-					desc='Working on CRM product Teleduce whose backend is built using Django and uses inbuilt template engine for User Interface. '
+					desc={[
+						'Worked with team on design and development of Customer relationship management Teleduce built using Django.',
+						'Implemented some UI based feature to make application more interactive.',
+						'Developed a customer portal application from which customer can raise tickets and connect with the agent to resolve issues.',
+						'Got to learn about Django, cloud infrastructure, CI/CD pipelines, and lead management in CRMs.'
+					]}
 				/>
 			</div>
 		</div>

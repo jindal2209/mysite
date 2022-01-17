@@ -10,7 +10,7 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	list-style: none;
+	/* list-style: none; */
 	box-sizing: border-box;
 	/* font-family: 'Montserrat', sans-serif; */
 	/* font-family: 'Caveat', cursive; */
@@ -257,4 +257,8 @@ ol,ul {
 	background-color: #348eb8;
 	transition: 0.3s ease;
 	width: 0;
+}
+.bullet-list {
+	list-style-type: disc !important;
+	padding-left: 20px;
 }
