@@ -1,5 +1,5 @@
 function loadWidget() {
-  let shiprocketPincode = shiprocket.pincodeHelper();
+  let shiprocketPincode = 110022;//shiprocket.pincodeHelper();
   let shiprocketWidget = `<div class="shiprocket_pincode--widget">
     <input inputmode="numeric" pattern="\d{6}" value="${shiprocketPincode != null ? shiprocketPincode : ''}" onpaste="return false;" onkeypress="return shiprocket.preventAlphabet(event)" type="number" name="pincode" placeholder="For eg. 560002" class="shiprocket_pincode--input" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
           {% if template contains 'product' %}
@@ -11,9 +11,9 @@ function loadWidget() {
   //Load Widget into the selector
   [...document.querySelectorAll('.shiprocket_pincode--wrapper1')].map(function (i) { i.innerHTML = shiprocketWidget });
 
-  {% if template contains 'product' %}
-  shiprocket.getSku();
-  {% endif %}
+//   {% if template contains 'product' %}
+//   shiprocket.getSku();
+//   {% endif %}
 }
 
 module.exports = {
