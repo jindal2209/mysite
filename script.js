@@ -11,9 +11,9 @@ function loadWidget() {
   //Load Widget into the selector
   [...document.querySelectorAll('.shiprocket_pincode--wrapper1')].map(function (i) { i.innerHTML = shiprocketWidget });
 
-  {% if template contains 'product' %}
-  shiprocket.getSku();
-  {% endif %}
+  // {% if template contains 'product' %}
+  // shiprocket.getSku();
+  // {% endif %}
 }
 
 function pincodeHelper(pincodeData) {
