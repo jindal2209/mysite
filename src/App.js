@@ -320,9 +320,9 @@ function Projects() {
 				<ProjectComponent
 					name='Netflix Recommendation System'
 					desc='Recommendation engine for netflix movies based on movie tags and user history Used KNN Algorithm and content based filtering using cosine vector and stemming.'
-					link='https://jindal2209.github.io/Netflix-Recommendation-System/'
+					link=''
 					hosted={true}
-					available={true}
+					available={false}
 				/>
 				<ProjectComponent
 					name='Invoice Application'
