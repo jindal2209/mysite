@@ -44,7 +44,7 @@ function Navbar() {
 						<a href="https://github.com/jindal2209" target="_blank" rel="noreferrer">
 							<i className="fab fa-github"></i>
 						</a>
-						<a href="https://www.linkedin.com/in/shubham-jindal-116431193" target="_blank" rel="noreferrer">
+						<a href="https://www.linkedin.com/in/jindal2209" target="_blank" rel="noreferrer">
 							<i className="fab fa-linkedin-in"></i>
 						</a>
 					</div>
@@ -102,7 +102,7 @@ function About() {
 						<a className="introLinks" href="https://www.hackerrank.com/shubham7811" target="_blank" rel="noreferrer">
 							<i className="fab fa-hackerrank"></i>
 						</a>
-						<a className="introLinks" href="https://www.linkedin.com/in/shubham-jindal-116431193" target="_blank" rel="noreferrer">
+						<a className="introLinks" href="https://www.linkedin.com/in/jindal2209" target="_blank" rel="noreferrer">
 							<i className="fab fa-linkedin-in"></i>
 						</a>
 						<a className="introLinks" href="https://www.github.com/jindal2209" target="_blank" rel="noreferrer">
