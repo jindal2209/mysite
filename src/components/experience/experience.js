@@ -30,11 +30,9 @@ export default function Experience() {
       <h1 className='header'>
         Experience
       </h1>
-      <div>
-        {data.map((val, key) => (
-          <ExperienceComponent key={key} data={val} />
-        ))}
-      </div>
+      {data.map((val, key) => (
+        <ExperienceComponent key={key} data={val} />
+      ))}
     </div>
   )
 }
