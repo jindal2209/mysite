@@ -11,7 +11,12 @@ export default function Navbar() {
         <span className="bar"></span>
         <span className="bar"></span>
       </label>
-      <label className="logo"><a href="#home" style={{ color: 'white' }}>Shubham Jindal</a></label>
+      <label>
+        <a className="logo" href="#home">
+          SHUBHAM JINDAL
+          {/* <img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" /> */}
+        </a>
+      </label>
       <ul style={{ 'listStyleType': 'none' }}>
         <li className="center">
           <div>
