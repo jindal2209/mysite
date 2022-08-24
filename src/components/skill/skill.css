@@ -1,0 +1,29 @@
+.grid-item,
+.skill-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  flex-direction: column;
+  /* margin: 0 15px; */
+}
+
+.skill-logo {
+  /* background-color: #ff3e55; */
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  /* border-radius: 50%; */
+  /* border: 0; */
+  /* box-shadow: 5px 10px 4px rgba(0, 0, 0, .1); */
+}
+
+.skill-title {
+  color: #f7f6f5;
+  font-family: futuramedium, serif;
+  margin-top: 7px;
+  font-size: 15px;
+  cursor: default;
+}
