@@ -4,7 +4,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <footer className="footer">
-      <h6><b>Shubham Jindal</b></h6>
+      <h5>Shubham Jindal 🐥</h5>
     </footer>
   )
 }

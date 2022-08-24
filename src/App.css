@@ -27,19 +27,6 @@ body {
 	padding-bottom: 50px;
 }
 
-
-
-.introLinks {
-	color: white;
-	padding: 0 20px;
-	text-align: center;
-	font-size: 40px;
-}
-
-.introLinks:hover * {
-	fill: #0a58ca;
-}
-
 .intro {
 	display: flex;
 	justify-content: center;
@@ -115,10 +102,6 @@ textarea.textInput {
 	nav .logo {
 		font-size: x-large;
 		margin-left: 20px;
-	}
-
-	.introLinks {
-		font-size: 30px;
 	}
 
 	.textInput,

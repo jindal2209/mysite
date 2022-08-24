@@ -1,0 +1,16 @@
+.introLinks {
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.introLinks:hover * {
+  fill: #0a58ca;
+}
+
+@media (max-width: 480px) {
+  .introLinks {
+    font-size: 30px;
+  }
+}
