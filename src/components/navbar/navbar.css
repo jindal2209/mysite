@@ -14,7 +14,7 @@ nav * {
 }
 
 nav .logo {
-  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Permanent Marker', cursive;
   text-decoration: none;
   letter-spacing: 5px;
   font-size: xx-large;
@@ -146,4 +146,17 @@ nav ul li a:hover .fas {
 #check:checked~.checkbtn .bar:nth-child(3) {
   -webkit-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    width: 100vw;
+  }
+
+  nav .logo {
+    font-size: x-large;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
 }

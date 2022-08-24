@@ -87,21 +87,12 @@ textarea.textInput {
 }
 
 @media (max-width: 480px) {
-	nav ul {
-		width: 100vw;
-	}
-
 	#about {
 		margin-top: 50px;
 	}
 
 	.fst :nth-child(5) {
 		margin-bottom: 0;
-	}
-
-	nav .logo {
-		font-size: x-large;
-		margin-left: 20px;
 	}
 
 	.textInput,
