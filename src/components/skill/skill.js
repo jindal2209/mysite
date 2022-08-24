@@ -1,5 +1,6 @@
 import React from 'react';
-import './skill.css'
+import './skill.css';
+import { data } from './skills_data';
 
 function SkillComponent(props) {
   return (
@@ -16,66 +17,14 @@ function SkillComponent(props) {
 
 export default function Skills() {
   return (
-    <div className='row my-5' id='skills'>
+    <div className='row my-5' id='skills' data-aos='fade-up'>
       <h1 className='header'>
         Skills
       </h1>
-      <div className='col-md-6 fst' data-aos='zoom-in'>
-        <SkillComponent
-          name='C++'
-          val='80'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-line.svg"
-        />
-        <SkillComponent
-          name="Python"
-          val='80'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-        />
-        <SkillComponent
-          name="Javascript"
-          val='80'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-        />
-        <SkillComponent
-          name='SQL'
-          val='60'
-          src="https://img.icons8.com/plasticine/100/000000/oracle-pl-sql--v3.png"
-        />
-        <SkillComponent
-          name='AWS'
-          val='70'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
-        />
-      </div>
-      <div className='col-md-6' data-aos='zoom-in'>
-        <SkillComponent
-          name='Django'
-          val='85'
-          src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/django/django-original.svg"
-        />
-        <SkillComponent
-          name='React'
-          val='70'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-        />
-        <SkillComponent
-          name='CSS'
-          val='60'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
-        />
-        <SkillComponent
-          name='HTML'
-          val='80'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
-        />
-        <SkillComponent
-          name='Bootstrap'
-          val='80'
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
-        />
+      <div className='grid-layout' data-aos='zoom-in'>
+        {data.map((val, key) => <SkillComponent key={key} name={val.name} src={val.src} />)}
       </div>
     </div>
-
   )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import './navbar.css';
 import { closeMenu, closeMenuKey } from "../../utils/utils";
 
 export default function Navbar() {

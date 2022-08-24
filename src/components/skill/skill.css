@@ -1,3 +1,11 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column: 20px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
 .grid-item,
 .skill-logo {
   display: flex;
@@ -7,23 +15,21 @@
 
 .grid-item {
   flex-direction: column;
-  /* margin: 0 15px; */
+  margin: 20px;
 }
 
 .skill-logo {
-  /* background-color: #ff3e55; */
   width: 70px;
   height: 70px;
   padding: 10px;
-  /* border-radius: 50%; */
-  /* border: 0; */
-  /* box-shadow: 5px 10px 4px rgba(0, 0, 0, .1); */
+  border-radius: 50%;
 }
 
 .skill-title {
-  color: #f7f6f5;
-  font-family: futuramedium, serif;
   margin-top: 7px;
   font-size: 15px;
   cursor: default;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
 }

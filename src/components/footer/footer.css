@@ -1,0 +1,11 @@
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  padding: 20px 0 10px 0px;
+  box-shadow: 0px -15px 10px -15px var(--PRIMARY_BLUE_SHADOW);
+  text-align: center;
+  color: white;
+}

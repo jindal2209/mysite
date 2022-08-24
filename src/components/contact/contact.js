@@ -21,8 +21,11 @@ export default function Contact() {
       </h1>
       <div className='col-md-6 px-3 py-3' style={{ textAlign: 'left' }} data-aos='zoom-in'>
         <h3>
-          Lets talk about work
+          Lets talk about work !!
         </h3>
+        <h5>
+          I am available for development and scripting related work and opportunities.
+        </h5>
         <i className="fas fa-globe-asia"></i>Address: New Delhi,India
         <br />
         <i className="fas fa-envelope"></i>Email: shubham7811@yahoo.com
