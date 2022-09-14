@@ -1,6 +1,6 @@
 export const profilesData = [
   {
-    url: 'https://www.codechef.com/users/shubham7811',
+    url: 'https://leetcode.com/shubham7811/',
     icon: 'fas fa-code'
   },
   {
