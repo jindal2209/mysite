@@ -1,5 +1,12 @@
 export const data = [
   {
+    name: 'CodeShare',
+    desc: 'A real-time code sharing platform which can be used for pair-programming or during interviews. Users can practice questions from the questions list extracted from leetcode. Code changes and compilation results are reflected in real-time.',
+    link: 'https://jindal2209.github.io/CodeShareLive/',
+    hosted: true,
+    available: true
+  },
+  {
     name: 'Algolizer',
     desc: 'A collection of animated visualizations of various algorithms like flood-fill, backtracking, sorting and data-structures like graphs, tries, hashmaps, heaps.',
     link: 'https://jindal2209.github.io/Algolizer/',
