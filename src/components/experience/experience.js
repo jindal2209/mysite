@@ -4,16 +4,16 @@ import { data } from './experience_data';
 function ExperienceComponent(props) {
   props = props.data
   return (
-    <div className='py-3 px-2' data-aos='zoom-in'>
+    <div className='p-3' data-aos='zoom-in'>
       <h4>
         {props.position}
       </h4>
-      <h5 style={{ textDecoration: 'underline' }}>
+      <h4 style={{ textDecoration: 'underline' }}>
         <b>{props.company_name}</b>
-      </h5>
-      <h6>
+      </h4>
+      <h5>
         {props.duration}
-      </h6>
+      </h5>
       <ul className='bullet-list'>
         {props.desc.map((val, idx) => (
           <li key={idx}>{val}</li>

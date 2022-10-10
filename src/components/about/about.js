@@ -22,7 +22,13 @@ export default function About() {
         <div className='row'>
           <div className='col-md-12'>
             {profilesData.map((val, key) => (
-              <a key={key} className="introLinks" href={val.url} target="_blank" rel="noreferrer">
+              <a
+                key={key}
+                className={`introLinks introLinks-${val.iconClass}`}
+                href={val.url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className={val.icon}></i>
               </a>
             ))}

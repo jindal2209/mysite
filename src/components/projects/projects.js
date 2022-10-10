@@ -4,14 +4,14 @@ import { data } from './projects_data';
 function ProjectComponent(props) {
   props = props.data
   return (
-    <div className='py-3 px-2' data-aos='zoom-in'>
+    <div className='p-3' data-aos='zoom-in'>
       <h5 style={{ textDecoration: 'underline' }}>
         {props.name}
       </h5>
       {props.desc}
       <br />
       {props.available ? props.hosted ? "The project is hosted " : "The project is available " : null}
-      {props.available ? <a style={{ color: 'white' }} href={props.link} target='_blank' rel='noreferrer'>here.</a> : null}
+      {props.available ? <a style={{ textDecoration: 'none' }} href={props.link} target='_blank' rel='noreferrer'>here.</a> : null}
     </div>
   )
 }

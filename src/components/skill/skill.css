@@ -27,9 +27,32 @@
 
 .skill-title {
   margin-top: 7px;
-  font-size: 15px;
+  font-size: 17px;
   cursor: default;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 300;
+}
+
+@media (max-width: 780px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column: 20px;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .skill-logo {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  .skill-title {
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
 }

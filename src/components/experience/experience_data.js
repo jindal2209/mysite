@@ -2,7 +2,7 @@ export const data = [
   {
     company_name: 'Shiprocket',
     position: 'Software Enginner Intern',
-    duration: 'January 2022 - Februrary 2022',
+    duration: 'January 2022 - March 2022',
     desc: [
       'Implemented custom calendar for scheduling slots which will remove the unnecessary crowd at the warehouses by 90% and help control the number of employees at warehouses.',
       'Worked on automated integration of customer’s shopify stores with shiprocket application which will remove the manual installation process by 70% and reduce workload on sales team by 50%'

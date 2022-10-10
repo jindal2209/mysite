@@ -1,12 +1,28 @@
 .introLinks {
-  color: white;
   padding: 0 20px;
   text-align: center;
   font-size: 40px;
+  color: var(--PRIMARY_FONT_COLOR);
 }
 
-.introLinks:hover * {
-  fill: #0a58ca;
+.introLinks-lc * {
+  color: rgb(255, 152, 0);
+}
+
+.introLinks-gh * {
+  color: #000000;
+}
+
+.introLinks-ln * {
+  color: #0a58ca;
+}
+
+.introLinks-hr * {
+  color: #009900;
+}
+
+.introLinks-cd * {
+  color: #990000;
 }
 
 @media (max-width: 480px) {
