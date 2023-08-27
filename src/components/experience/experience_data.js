@@ -15,7 +15,7 @@ export const data = [
           end_date: new Date()
         },
         description: [
-          "Working on Fleet Coach App. Implementing new product feature and optimising them."
+          "Working on Fleet Coach App. Leading the team and implementing new product features and optimizing them."
         ]
       },
       {
@@ -26,7 +26,8 @@ export const data = [
         },
         description: [
           "Worked on Delivery Logistics Order Service",
-          "Working on Fleet Coach App. Am a founding member of this application. The applications aims to provide assistance to fleet coaches over mobile to view data of rider and connect with them and eventually reduce rider churn."
+          "Worked on automating support tickets based on rider history, which helped reduce number of agents and eventually saved cost.",
+          "Worked on Fleet Coach App. Was a founding member of this application. The applications aims to provide assistance to fleet coaches over mobile to view data of rider and connect with them and eventually reduce rider churn."
         ]
       }
     ],
