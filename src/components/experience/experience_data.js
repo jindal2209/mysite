@@ -15,14 +15,17 @@ export const data = [
           end_date: new Date()
         },
         description: [
-          "Working on Fleet Coach App. Leading the team and implementing new product features and optimizing them."
+          "Worked on Fleet Coach App. Lead the team and implemented new product features and optimized them. Migrated all flows related to this app to a separate microservice with 0 downtime.",
+          "Worked on Zomato weather service. Built the service from scratch. weatherunion.com is powered using this service.",
+          "Working on migration of rider support flows from monolith to microservice. Optimizing service to reduce CPU and memory util. Working on fraud detection during live order using AI prompt engineering.",
+          "Working on rider gigs related flows to optimize rider churn and rider availability."
         ]
       },
       {
         name: "Software Engineer Intern",
         duration: {
           start_date: new Date(2022, 10),
-          end_date: new Date(2022, 3)
+          end_date: new Date(2023, 3)
         },
         description: [
           "Worked on Delivery Logistics Order Service",
