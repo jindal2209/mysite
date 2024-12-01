@@ -1,5 +1,12 @@
 export const data = [
   {
+    name: 'WeatherUnion',
+    desc: 'A Zomato Giveback, weatherunion is India\'s first crowd-supported weather infrastructure. Multiple weather stations are installed across the country, largest on-ground network of weather stations.',
+    link: 'https://weatherunion.com',
+    hosted: true,
+    available: true
+  },
+  {
     name: 'CodeShare',
     desc: 'A real-time code sharing platform which can be used for pair-programming or during interviews. Users can practice questions from the questions list extracted from leetcode. Code changes and compilation results are reflected in real-time.',
     link: 'https://jindal2209.github.io/CodeShareLive/',

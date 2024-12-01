@@ -16,6 +16,10 @@ export const data = [
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
   },
   {
+    name: "Ruby",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+  },
+  {
     name: 'MySQL',
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
   },
