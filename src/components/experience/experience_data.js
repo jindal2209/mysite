@@ -9,10 +9,20 @@ export const data = [
     },
     positions: [
       {
+        name: "Software Engineer - II",
+        duration: {
+          start_date: new Date(2025, 6),
+          end_date: new Date()
+        },
+        description: [
+          "Working on rider scoring and medal system based on performance, offering riders clear visibility into their work and motivating them to improve with extra benefits tied to their medal status."
+        ]
+      },
+      {
         name: "Software Engineer - I",
         duration: {
           start_date: new Date(2023, 4),
-          end_date: new Date()
+          end_date: new Date(2025, 5)
         },
         description: [
           "Worked on Fleet Coach App. Lead the team and implemented new product features and optimized them. Migrated all flows related to this app to a separate microservice with 0 downtime.",

@@ -29,7 +29,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={process.env.PUBLIC_URL + "/topmate.png"} width="50em" height="50em" />
+              <img src={process.env.PUBLIC_URL + "/topmate.png"} width="50em" height="50em" alt='img' />
             </a>
             {profilesData.map((val, key) => (
               <a
