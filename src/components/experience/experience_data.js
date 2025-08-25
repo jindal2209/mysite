@@ -25,10 +25,12 @@ export const data = [
           end_date: new Date(2025, 5)
         },
         description: [
-          "Worked on Fleet Coach App. Lead the team and implemented new product features and optimized them. Migrated all flows related to this app to a separate microservice with 0 downtime.",
+          "Developed and deployed an AI-powered automated calling system for live order and non live support, reducing support dependency and operational costs by integrating decision trees and real-time system actions.",
+          "Built a real-time AI system using LLMs to detect fraud and operational issues in rider-customer calls, saving ₹1 cr/month by proactively identifying fraud, reducing order cancellations, and accelerating support resolution.",
+          "Accomplished 50% reduction in avg API latency, by migrating rider support flows from a monolith to a microservice and optimizing CPU and memory usage.",
           "Worked on Zomato weather service. Built the service from scratch. weatherunion.com is powered using this service.",
-          "Working on migration of rider support flows from monolith to microservice. Optimizing service to reduce CPU and memory util. Working on fraud detection during live order using AI prompt engineering.",
-          "Working on rider gigs related flows to optimize rider churn and rider availability."
+          "Optimized rider gig flows to reduce churn and effectively manage rider availability during peak and non-peak times.",
+          "Led the team in developing and optimizing new features for the Fleet Coach App, migrating all product-related flows to a separate microservice with zero downtime."
         ]
       },
       {
@@ -38,9 +40,9 @@ export const data = [
           end_date: new Date(2023, 3)
         },
         description: [
+          "Worked on automating support tickets based on rider history, which helped reduce number of agents and eventually saved costs (₹60 lakhs annually).",
+          "Worked on Fleet Coach App. Was a founding member of this application. The applications aims to provide assistance to fleet coaches over mobile to view data of rider and connect with them and eventually reduce rider churn.",
           "Worked on Delivery Logistics Order Service",
-          "Worked on automating support tickets based on rider history, which helped reduce number of agents and eventually saved cost.",
-          "Worked on Fleet Coach App. Was a founding member of this application. The applications aims to provide assistance to fleet coaches over mobile to view data of rider and connect with them and eventually reduce rider churn."
         ]
       }
     ],
@@ -61,8 +63,8 @@ export const data = [
           end_date: new Date(2022, 1)
         },
         description: [
-          'Implemented custom calendar for scheduling slots which will remove the unnecessary crowd at the warehouses by 90% and help control the number of employees at warehouses.',
-          'Worked on automated integration of customer’s shopify stores with shiprocket application which will remove the manual installation process by 70% and reduce workload on sales team by 50%'
+          'Slashed 90% unnecessary warehouse crowd by implementing a custom calendar for warehouse scheduling.',
+          'Reduced 70% of manual installation process by implementing automated integration of customer’s Shopify stores with Shiprocket’s application.'
         ]
       }
     ],
