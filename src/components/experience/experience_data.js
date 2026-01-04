@@ -15,6 +15,7 @@ export const data = [
           end_date: new Date()
         },
         description: [
+          "Saved ₹2 Cr annually by implementing AI based calling for various rider support flows, thereby reducing agent bandwidth.",
           "Working on rider scoring and medal system based on performance, offering riders clear visibility into their work and motivating them to improve with extra benefits tied to their medal status."
         ]
       },

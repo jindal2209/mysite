@@ -8,12 +8,12 @@ export const data = [
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
   },
   {
-    name: "Python",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+    name: 'Redis',
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"
   },
   {
-    name: "Javascript",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    name: 'Kafka',
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"
   },
   {
     name: "Ruby",
@@ -24,16 +24,16 @@ export const data = [
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
   },
   {
-    name: 'Redis',
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"
-  },
-  {
-    name: 'Kafka',
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"
-  },
-  {
     name: 'AWS',
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+  },
+  {
+    name: "Python",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+  },
+  {
+    name: "Javascript",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
   },
   // {
   //   name: 'Django',
@@ -51,8 +51,8 @@ export const data = [
     name: 'HTML',
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
   },
-  {
-    name: 'Bootstrap',
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
-  }
+  // {
+  //   name: 'Bootstrap',
+  //   src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
+  // }
 ];
